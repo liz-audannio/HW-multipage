@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    font-family: 'Bitter', serif;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    /* display: fixed; */
+    background-color: red;
+    padding: 10px 30px;
+}
+
+.blankSpace {
+    padding: 100px;
+}
+
+.mainMargin {
+    margin-left: 1vw;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+    border: solid white 2px;
+    border-radius: 50%;
+    padding: 6px;
+    font-family: 'Space Mono', monospace;
+}
+
+button {
+    height: 40px;
+    width: 50px;
+    background-color: red;
+    border-style: none;
+}
+
+#search_box {
+    border-style: none;
+    width: 500px;
+    height: 40px;
+}
+
+#search_bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#list {
+    list-style-type: none;
+    color: white;
+    text-align: right;
+    width: 100%;
+    margin-right: 15px;
+}
+
+#main_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%
+}
+
+#cart {
+    background: none;
+}
+
+#small_list {
+    list-style: none;
+}
+
+#list2 {
+    list-style-type: none;
+    color: white;
+    text-align: right;
+    width: 100%;
+    margin-right: 15px;
+}
+
+#main_row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%
+}
+
+#cart2 {
+    background: none;
+}
+
+#small_list2 {
+    list-style: none;
+}
+
+#slide {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+h1,
+h2,
+h3 {
+    text-shadow: 2px 2px 5px rgb(53, 36, 150);
+    color: white;
+}
+
+.bulk {
+    padding-top: 100px;
+    font-family: 'Bitter', serif;
+    text-shadow: 2px 2px rgb(182, 209, 233);
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 0%;
+    }
+    50% {
+        margin-left: 300px;
+    }
+    100% {
+        margin-left: 0%;
+    }
+}
+
+.invert {
+    filter: invert();
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
