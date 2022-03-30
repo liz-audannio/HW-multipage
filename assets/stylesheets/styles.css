@@ -159,6 +159,11 @@ footer.h2 {
     color: rgb(82, 188, 211);
 }
 
+h2.food {
+    text-shadow: 2px 2px;
+    color: rgb(246, 65, 237)
+}
+
 
 /* footer declarations */
 
